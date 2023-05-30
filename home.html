@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NoteLog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet">
+  <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: url("bg2.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .button:hover {
+      background-color:rgba(137, 43, 226, 0.733);
+      color: #ffffff;
+      transition: 100ms;
+      box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.664);
+    }
+    
+    .container {
+        margin: 200px;
+        text-align: center;
+    }
+
+    .header{
+        font-size: 500%;
+        color: #ffffff;
+        font-stretch: expanded;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    #b1{
+        margin-right: 60px;
+    }
+
+    #b2{
+        margin-left: 60px;
+    }
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:active { text-decoration: none; }
+    .button-container a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor:pointer;
+    }
+    span:hover{
+        text-shadow: #000000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="header">Welcome to <span>Notesify</span></a>
+  </div>
+    <div class="button-container">
+      <a class="button" id="b1" href="loginpage.html">Login</a>
+      <a class="button" id="b2" href="signup.html">Sign up</a>
+    </div>
+</body>
+</html>
