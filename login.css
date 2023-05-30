@@ -1,0 +1,150 @@
+body{
+    text-align: center;
+    background: rgb(0,21,110);
+    background: linear-gradient(90deg, rgba(0,254,255,0.7539390756302521) 0%, rgba(162,0,255,0.7231267507002801) 57%, rgba(231,80,199,0.7875525210084033) 79%);}
+
+form{
+    margin: 0px;
+    padding: 60px;
+    margin-top: 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 65px;
+    padding-right: 65px;
+    box-shadow: 0 15px 30px 1px grey;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.644);
+}
+
+
+label{
+    text-shadow: 0 1px 1px gray;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 0px;
+    display: inline-block;
+    margin-right: 113px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+#forgot{
+    margin-left: 77px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+    color: grey;
+}
+
+#submit{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 71px;
+    padding-right: 71px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(0,254,255,0.7539390756302521) 0%, rgba(162,0,255,0.7231267507002801) 57%, rgba(231,80,199,0.7875525210084033) 79%);    border: none;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: none;
+    color: white;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+input[type=text] ,input[type=password],input[type=email]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+input:focus,input:active{
+    outline: none;
+}
+#signup{
+    color: grey;
+    font-size: x-small;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fb{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.twitter{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.google{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+#signupagain{
+    color: grey;
+
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 1px gray;
+}
+
+#submit:hover{
+	box-shadow: 0 1px 3px 1px grey;
+  }
+
+  label[for=email]
+  {
+    margin-right: 135px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  /* Made by Amandeep Singh  */
+
+  

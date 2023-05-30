@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="notes.css" >
+        <script defer src="notes.js"></script>
+        <title>Notesify</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="container">
+                <a href="#" class="head_link"
+                    ><h2 class="logo_head">
+                        <span class="logo">Notesify</span>
+                    </h2>
+                </a>
+                <!-- <div class="js_icon">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div> -->
+                <div id="toggled_div">
+                    <div id="search">
+                        <input
+                            type="search"
+                            name="search_notes"
+                            id="search_notes"
+                            placeholder="Search..."
+                        />
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+            <div class="container sect">
+                <h2>Let's make Notes</h2>
+                <form class="form" action="#">
+                    <div>
+                        <label for="title">Add Title</label> <br>
+                        <textarea
+                            class="title"
+                            id="title"
+                            rows="1"
+                            placeholder="Title Here .."
+                        ></textarea>
+                        <br />
+                    </div>
+                    <div>
+                        <label for="note">Add a Note</label> <br />
+                        <textarea
+                            class="notes"
+                            id="notes"
+                            rows="3"
+                            placeholder="Content Here .."
+                        ></textarea>
+                        <br />
+                    </div>
+                    <div class="sect-btn">
+                        <button id="submit-btn" type="button">
+                            Add a Note
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <hr />
+            <div class="container note-sect">
+                <div id="beauty">
+                    <h2>Your Notes</h2>
+                </div>
+                <div id="all-notes">
+                    <p id="first">
+                        Use "Add a Note" section to add notes
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

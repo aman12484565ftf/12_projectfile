@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+        a:link { text-decoration: none; }
+        a:visited { text-decoration: none; }
+        a:hover { text-decoration: none; }
+        a:active { text-decoration: none; }
+    </style>
+    <script>
+        function redirectToNextPage(event) {
+            event.preventDefault(); 
+
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            if (email.trim() !== '' && password.trim() !== '') {
+                window.location.href = "project11.html"; 
+            } else {
+                alert("Please fill in both the email and password fields."); 
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <div class="Login">
+            <h1>SIGN UP</h1>
+        </div>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Type your Email" required><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Type your password" required><br>
+        <br>
+        <button type="submit" id="submit" onclick="redirectToNextPage(event)">SIGN UP</button>
+    </form>
+</body>
+</html>
+
+
